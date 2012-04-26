@@ -2,3 +2,8 @@ language: ruby
 rvm:
   - 1.9.2
   - 1.9.3
+
+gemfile:
+  - gemfiles/ar30.gemfile
+  - gemfiles/ar31.gemfile
+  - gemfiles/ar32.gemfile
