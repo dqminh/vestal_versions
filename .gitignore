@@ -3,3 +3,5 @@ pkg/*
 .bundle
 coverage
 tags
+.idea
+.rvmrc

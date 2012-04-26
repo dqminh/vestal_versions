@@ -100,9 +100,7 @@ describe VestalVersions::Reset do
         subject.reset_to!(version)
 
         later_versions.each do |later_version|
-          expect{
-            later_version.reload
-          }.to_not raise_error
+          expect{ later_version.reload }.to_not raise_error
         end
       end
     end
